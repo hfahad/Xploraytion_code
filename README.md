@@ -1,5 +1,5 @@
 # Overview:
-This repository contains code for a Convolutional Neural Network (CNN) implemented using both PyTorch and Keras libraries. The repository includes files for training the model from scratch, evaluating the performance of the model by loading pre-trained weights, and the neural network architecture. The MINST dataset is used for training the model.
+This repository contains code for a Convolutional Neural Network (CNN) implemented using PyTorch library. The repository includes files for training the model from scratch, evaluating the performance of the model by loading pre-trained weights, and the neural network architecture. The MINST dataset is used for training the model.
 # Requirements
 
 ## Required packages:
