@@ -11,7 +11,7 @@ from NeuralNet import NeuralNet
 import os
 
 
-def Train(batch_size, nb_epochs, model_dir, in_channels, out_channels, kernal):
+def Train(batch_size, nb_epochs, model_path, in_channels, out_channels, kernal):
     """
     Train the Neural Network on the MNIST dataset
 
@@ -106,9 +106,9 @@ def Train(batch_size, nb_epochs, model_dir, in_channels, out_channels, kernal):
                 loss, correct, len(test_loader.dataset),
                 100. * correct / len(test_loader.dataset)))
 
-    if not os.path.exists(model_dir):
-        os.makedirs(model_dir)
-    Path = model_dir + '/model_mnist.pth'
+    if not os.path.exists(model_path):
+        os.makedirs(model_path)
+    Path = model_path + '/model_mnist.pth'
     torch.save(Net.state_dict(), Path)
 
 
