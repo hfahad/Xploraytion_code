@@ -3,7 +3,7 @@ This repository contains code for a Convolutional Neural Network (CNN) implement
 # Requirements
 
 ## Required packages:
-The required packages for both PyTorch and Keras implementation are listed in separate requirements.txt files and can be installed using the following command:
+The required packages for PyTorch implementation are listed in separate requirements.txt files and can be installed using the following command:
 
 ```
 pip install -r requirements.txt
