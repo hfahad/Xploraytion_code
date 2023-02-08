@@ -29,4 +29,5 @@ tqdm==2.2.3
 2)  'Train.py' file is used for training the model from scratch using PyTorch.
 3)  'Evaluation.py' file is used for testing the model using trained model and evaluate using confusion matrix.
 
+## Results: Confusion Martix:
 ![confusion matrix evaluation](./results/cm_matrix.jpg)
