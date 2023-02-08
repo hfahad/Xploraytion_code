@@ -89,8 +89,7 @@ def Train(batch_size, nb_epochs, model_path, in_channels, out_channels, kernal):
             correct = 0
 
             for data, target in test_loader:
-                data = data.unsqueeze(1)
-                target = target.squeeze(1)
+                
                 data, target = data.to(device), target.to(device)
 
                 output = Net(data)
@@ -142,7 +141,7 @@ if __name__ == "__main__":
 
     # Add argument for data folder
     parser.add_argument("--kernal", type=int,
-                        dest="mkernal", default=3,
+                        dest="kernal", default=3,
                         help="convolutional kernal size")
 
     args = parser.parse_args()
