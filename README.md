@@ -19,7 +19,6 @@ scipy==1.7.3
 seaborn==0.11.2
 tensorboard==2.9.1
 torch==1.12.0
-torch==1.12.0
 torchvision==0.13.0
 tqdm==2.2.3
 ```
